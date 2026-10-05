@@ -1,0 +1,8 @@
+{
+  "name": "worker",
+  "main": "src/worker.js",
+  "compatibility_date": "2025-01-01",
+  "assets": { "directory": "./public", "binding": "ASSETS" },
+  "r2_buckets": [{ "binding": "BUCKET", "bucket_name": "app-builder" }],
+  "vars": { "GH_REPO": "mmzarezademehrizi-cmyk/-" }
+}
